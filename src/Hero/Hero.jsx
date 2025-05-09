@@ -53,7 +53,7 @@ const Hero = () => {
           <p className="assinatura">Cris S.</p>
         </div>
         <img
-          src="../../public/cris.png"
+          src="/cris.png"
           className="hero-image"
           alt="Imagem de Cris"
         />
