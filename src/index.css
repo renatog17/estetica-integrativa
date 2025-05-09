@@ -1,0 +1,50 @@
+
+/* src/reset.css */
+
+/* Remove margens e preenchimentos padrões */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Defina uma altura mínima para 100% da tela */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+/* Remove estilo de link padrão */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove o estilo de lista */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove bordas padrão de inputs e botões */
+input, button, textarea, select {
+    border: none;
+    outline: none;
+}
+
+/* Garante que as imagens não saiam do lugar */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Garante que o conteúdo flexível se ajuste ao tamanho do elemento */
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
