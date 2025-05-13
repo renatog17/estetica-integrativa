@@ -15,6 +15,7 @@ export default function Procedimentos() {
                     <li>Estrias</li>
                     <li>Clareamento Axila</li>
                     <li>Olheiras</li>
+                    <button> Saiba mais</button>
                 </ul>
             </div>
             

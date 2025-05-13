@@ -14,6 +14,7 @@ export default function Procedimentos() {
                     <li>Definição Abdominal</li>
                     <li>Remodelamento Glúteo</li>
                 </ul>
+                <button> Saiba mais</button>
             </div>
             <div className="rigth">
                 <img src="/procedimentos.png" alt="Procedimentos de estética" className="imagem-procedimentos" />
