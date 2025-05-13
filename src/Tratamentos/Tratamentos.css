@@ -1,0 +1,34 @@
+.tratamentos {
+  background-color: #e5b7b1;
+  padding: 30px;
+  font-family: 'Georgia', serif;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tratamentos h2 {
+  font-size: 28px;
+  color: #7a2947;
+  margin-bottom: 20px;
+}
+
+.lista-tratamentos {
+  padding-left: 0;
+  color: #5c1e35;
+  font-size: 18px;
+  text-align: left;
+  max-width: 400px;
+}
+
+.lista-tratamentos li {
+  margin-bottom: 10px;
+}
+
+.imagem-tratamentos {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  display: block;
+}

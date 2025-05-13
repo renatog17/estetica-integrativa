@@ -8,22 +8,29 @@
 }
 
 .logo{
-    position: relative;
-    margin: 50px 90px;
-    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px;
+    align-items: center;
 }
 
-.texto-logo{
-    font-family: 'Playfair Display', serif;
-    font-size: 2em;
+.logo-iniciais {
+    max-height: 120px;
+    font-size: 100px;
+    color: rgb(212, 189, 73);
+    font-family: 'Georgia', serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.assinatura{
-    position: absolute;
-    bottom: -45px;
-    left: 180px;
-    font-family: 'Sacramento', cursive;
-    font-size: 2.5rem;
+.logo-assinatura{
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.logo-descricao{
+    font-family: 'Georgia', serif;
+    font-size: 20px;
 }
 
 .center{
@@ -74,26 +81,26 @@
     color: #4d2c12;
     font-weight: bold;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1px;
 }
 .cursor {
     display: inline-block;
     width: 10ch;
     color: #8b5e3c;
     animation: blink 1s infinite;
+    letter-spacing: 1px;
 }
 
 @keyframes blink {
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }
-  }
-
+}
 
 .hero-image {
     max-width: 100%;
     width: 500px;
     height: auto;
 }
-
 
 .rigth{
     margin: 20px 50px;
@@ -104,6 +111,8 @@
 }
 
 .seus-agendamentos{
+    margin-right: 100px;
+    margin-top: 50px;
     display: flex;          
     align-items: center;        
     justify-content: center; 
@@ -117,11 +126,11 @@
 
 .seus-agendamentos:hover{
     cursor: pointer;
-    text-decoration: underline;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* sombra suave e elegante */
     transition: box-shadow 0.3s ease;
 }
 .social{
+    margin-right: 60px;
     margin-top: 400px;
     display: flex;
     flex-direction: column;
@@ -153,4 +162,15 @@
     .hero-buttons {
         flex-direction: column;
     }
+}
+.linha-curva-preenchida {
+  width: 100%;
+  height: 20px;
+  margin-top: -100px; /* Faz a curva subir e invadir a div acima */
+  z-index: 1;
+  position: relative;
+}
+
+.cor-da-curva {
+  fill: #e5b7b1; /* ou qualquer cor desejada */
 }

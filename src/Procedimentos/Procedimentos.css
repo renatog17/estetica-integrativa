@@ -1,0 +1,39 @@
+.procedimentos {
+  background-color: rgb(255, 250, 243);
+  padding: 30px;
+  font-family: 'Georgia', serif;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-top: 130px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left{
+  margin-right: 40px;
+}
+
+.left h2 {
+  font-size: 28px;
+  color: #7a2947;
+  margin-bottom: 20px;
+}
+
+.lista-procedimentos {
+  padding-left: 0;
+  color: #5c1e35;
+  font-size: 18px;
+  text-align: left;
+  max-width: 400px;
+}
+
+.lista-procedimentos li {
+  margin-bottom: 10px;
+}
+
+.imagem-procedimentos {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  display: block;
+}

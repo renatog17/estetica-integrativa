@@ -1,0 +1,31 @@
+.rodape {
+  background-color: #7a2947;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+}
+
+.rodape .links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.rodape .links a {
+  color: #ffd1e1;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.rodape .links a:hover {
+  color: #ffffff;
+}
+
+.autor{
+    margin-top: 10px;
+    font-size: 11px;
+}

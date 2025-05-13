@@ -46,11 +46,14 @@ const Hero = () => {
   }, [texto, apagando, indexPalavra]);
 
   return (
+    <div>
     <div className="hero">
+
       <div className="left">
         <div className="logo">
-          <p className="texto-logo">Estética Integrativa</p>
-          <p className="assinatura">Cris S.</p>
+          <p className="logo-iniciais">D & C</p>
+          <p className="logo-assinatura">Dra. Danielle Sá & Dra. Cris Souza</p>
+          <p className="logo-descricao">Estética Avançada e Integrativa</p>
         </div>
         <img
           src="/cris.png"
@@ -58,11 +61,10 @@ const Hero = () => {
           alt="Imagem de Cris"
         />
       </div>
+
       <div className="center">
         <div className="text-before-palavra-dinamica">Viva com mais</div>
-
         <span className="palavra-dinamica">{texto}</span>
-
         <div className="buttons">
           <div className="avaliacao">Agende Uma Avaliação</div>
           <div className="sobre">Saiba Mais</div>
@@ -89,6 +91,15 @@ const Hero = () => {
           </a>
         </div>
       </div>
+      
+    </div>
+    <div className="linha-curva-preenchida">
+      <svg viewBox="0 0 100 10" preserveAspectRatio="none">
+        <path className="cor-da-curva" d="M0,5 Q80,5 100,0 L100,10 L0,10 Z"/>
+      </svg>
+    </div>
+
+
     </div>
   );
 };
